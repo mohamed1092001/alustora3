@@ -96,7 +96,7 @@ form {
 }
 
 
-form .form-body{
+form .form-body {
     gap: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +109,7 @@ form .form-body * {
     padding: 12px 13px;
     border-radius: 5px;
     text-transform: uppercase;
-    color: #bb325d;
+    color: #fff;
     letter-spacing: 1px;
     box-shadow: 0px 0px 3px #000000a2;
     font-size: 12px;
@@ -135,7 +135,7 @@ form textarea {
     box-shadow: none;
 } */
 
-form .form-body button{
+form .form-body button {
     font-weight: bold;
     font-size: 13px;
 }
@@ -146,7 +146,7 @@ form button:hover {
     cursor: pointer;
 }
 
-.bg{
+.bg {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -156,7 +156,7 @@ form button:hover {
     mix-blend-mode: multiply;
 }
 
-form h1{
+form h1 {
     background-color: transparent !important;
     box-shadow: none !important;
     color: #e0e0e08e !important;
@@ -165,12 +165,40 @@ form h1{
 
 }
 
-@media (min-width:0px) and (max-width:700px){
-    form{
+@media (min-width:0px) and (max-width:700px) {
+    form {
         width: 90%;
     }
-    form h1{
+
+    form h1 {
         font-size: 23px !important;
         font-weight: 300;
     }
+}
+
+
+/* ############### */
+
+
+.file{
+    cursor: pointer;
+    background-color: #202020 !important;
+}
+
+.file input {
+    color: #fff;
+    width: fit-content;
+    margin: auto;
+    display: block;
+    clip-path: inset(0 0 0 95px);
+    cursor: pointer;
+    background-color: #202020 !important;
+}
+
+label{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    padding: 0px !important;
+    opacity: .5;
+    margin-top: 10px !important;
 }
